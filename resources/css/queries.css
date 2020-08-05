@@ -1,0 +1,54 @@
+/* Big Tablet */
+
+@media only screen and (max-width:1200px) {
+    .header-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+        width: 100%;
+    }
+}
+
+/* Small to Big Tablet */
+
+@media only screen and (max-width:1023px) {
+
+
+}
+
+/* Phone to Small Tablet */
+
+@media only screen and (max-width:767px) {
+
+    .col{
+        width: 100%;
+        margin: 3% 0 4% 0;
+    }
+
+    .potrait{
+        text-align: center;
+    }
+
+    html{
+        font-size: 16px;
+    }
+
+    .projects-box{
+        flex-direction: column;
+    }
+
+    .section-about{
+        background-position: right;
+    }
+
+    .project-desc{
+       padding:  20px 30px;
+    }
+}
+
+/* Phone */
+
+@media only screen and (max-width:480px) {}
